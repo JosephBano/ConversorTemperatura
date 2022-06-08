@@ -14,6 +14,9 @@ class conversor : public QDialog
 public:
     conversor(QWidget *parent = nullptr);
     ~conversor();
+public slots:
+    void cent2fahr(int);
+    void fahr2cent(int);
 
 private:
     Ui::conversor *ui;
